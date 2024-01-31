@@ -1,3 +1,8 @@
+# 
+# This work © 2023 by murmurlab is licensed under CC BY-SA 4.0. To view a copy 
+# of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
+# 
+
 FILES =				ft_memset.c ft_bzero.c ft_memcpy.c ft_striteri.c ft_memmove.c \
 					ft_memchr.c ft_memcmp.c ft_strlen.c ft_strlcpy.c ft_strlcat.c \
 					ft_strchr.c ft_strrchr.c ft_strnstr.c ft_strncmp.c ft_atoi.c \

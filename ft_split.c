@@ -1,19 +1,8 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ahbasara <ahbasara@student.42kocaeli.co    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/21 15:26:10 by ahbasara          #+#    #+#             */
-/*   Updated: 2023/12/23 00:59:03 by ahbasara         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 /**
  * This work © 2023 by murmurlab is licensed under CC BY-SA 4.0. To view a copy 
  * of this license, visit http://creativecommons.org/licenses/by-sa/4.0/
  */
+
 #include <sys/_types/_null.h>
 #include <sys/_types/_size_t.h>
 #include <malloc/_malloc.h>
