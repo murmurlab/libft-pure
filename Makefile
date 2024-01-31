@@ -47,7 +47,8 @@ ${NAME}: ${OBJECTS}
 bonus: ${NAME_BONUS}
 
 ${NAME_BONUS}: ${NAME} $(BONUS_OBJECTS) $(GNL_OBJECTS) $(LIBS)
-	${AR} ${NAME_BONUS} ${NAME} $(BONUS_OBJECTS) $(GNL_OBJECTS) $(LIBS)
+	${AR} ${NAME} $(BONUS_OBJECTS) $(GNL_OBJECTS) $(LIBS)
+	${AR} ${NAME_BONUS} ${NAME}
 
 %.o: %.c
 	${CC} ${CFLAGS} -c $< -o $@
